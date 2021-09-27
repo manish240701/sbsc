@@ -1,0 +1,35 @@
+
+/*All achievements*/
+.achievement-img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+}
+
+.achievement-image-container{
+    text-align: center;
+}
+
+@media (max-width: 450px){
+    .achievement-img{
+        width: 152px;
+        height: 228px;
+    }
+
+}
+
+.footer-container{
+    margin-top: 20px;
+}
+
+.container-heading{
+    background-image: linear-gradient(to right top, #ffffff, #fbfdff, #f3fdfe, #f0fcf7, #f5f9ec);
+    position: relative;
+    top: -20px;
+}
+
+.container-heading>h2{
+    padding: 20px;
+}

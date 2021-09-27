@@ -1,0 +1,234 @@
+/*universal and grouped*/
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+
+#join-class-btn, #read-more-btn{
+    outline: none;
+    border: none;
+}
+
+/*Floating whatsapp*/
+.floating-whatsapp-square{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    cursor: pointer;
+}
+
+.floating-whatsapp-icon{
+    font-size: 50px;
+    color: white;
+    background-color: green;
+    border-radius: 20%;
+}
+
+/*Nav Bar*/
+.logo{
+    position:relative;
+    top:-10px;
+}
+
+.nabar-container{
+    background-color: rgb(0, 0, 0);
+}
+
+.custom-badge{
+    background-color: #ffc107;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    color: #212529;
+    border-radius: 5px;
+}
+
+/*Background-Video-container*/
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+}
+
+.bg-video-content {
+    position: absolute;
+    top:40%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+}
+
+
+#join-class-btn{
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+}
+
+#join-class-btn:hover{
+    background-color: rgba(52, 44, 85, 0.836);
+    color: white;
+}
+
+
+/*solution 1 */
+.solution1{
+    width: 100vw;
+    height: 90vh;
+}
+
+@media (max-width:420px){
+    .solution1{
+        width: 100vw;
+        height: vh;
+    }
+    i{
+        margin: 0 0;
+    }
+
+}
+
+
+/*About us*/
+.container-heading>h2{
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.171);
+    font-size: 45px;
+
+}
+
+.about-us-content{
+    text-align: justify;
+    text-indent: 35px;
+}
+
+@media (max-width:991px){
+    .about-us-content{
+        margin:0 5px;
+        margin-top:15px;
+        text-indent: 35px;
+    }
+    .contact-form-submit{
+        margin-bottom: 20px;
+    }
+
+}
+
+#read-more-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 170, 10);
+}
+
+#read-more-btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 161, 32);
+}
+
+
+/*Contact Us*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-bottom: 40px;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.contact-container,.footer-container{
+    background-color: rgba(1, 5, 15, 0.973);
+    color: white;
+}
+
+.contact-us-container{
+    vertical-align: middle;
+}
+
+.contact-heading>h2{
+    color: rgba(255, 255, 255, 0.288);
+    padding:30px 0;
+    font-size: 45px;
+}
+
+.contact-form-submit{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.form-section{
+    margin-bottom: 10px;
+}
+
+ 
+
+/*Footer*/
+i{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+
+.copyrights{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.quick-links-link{
+    color: white;
+    padding-left: 0;
+}
+.quick-links-link:hover{
+    text-decoration: none;
+}
+
+.fas,.fab{
+    cursor: pointer;
+}
+
+.footer-logo{
+    margin-left: 250x;
+}
+
+.unordered-list{
+    padding-left: 0%;
+}
+
+.footer-reachus{
+    font-size: 15px;
+}
+
+.reach-us{
+    line-height: 30px;
+}
+
+.footer-logo{
+    text-align: center;
+}
+
+.link-solution{
+    color: white;
+}
+
+.link-solution:hover{
+    text-decoration: none;
+}

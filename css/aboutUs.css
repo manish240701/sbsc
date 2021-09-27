@@ -1,0 +1,151 @@
+/*universal and grouped*/
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.container-heading{
+    padding-top: 80px;
+}
+
+
+
+
+/*Body*/
+.container1{
+    background-image: linear-gradient(to right top, #ffffff, #fbfdff, #f3fdfe, #f0fcf7, #f5f9ec);
+    color: black;
+    text-align: justify;
+    position: relative;
+    top: -20px;
+}
+
+
+
+
+/*Nav Bar*/
+.logo{
+    position:relative;
+    top:-10px;
+}
+
+.nabar-container{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    border: none;
+    margin-bottom: 0;
+}
+
+.custom-badge{
+    background-color: #ffc107;
+    border: none;
+    outline: none;
+    padding: 2px 5px;
+    color: #212529;
+    border-radius: 5px;
+}
+
+
+
+/*About us container*/
+@media (max-width:991px){
+    
+    .para{
+        margin-top: 15px;
+    }
+}
+
+.para{
+    text-indent: 50px;
+}
+
+
+
+/*Achievements*/
+.achievement-image-container>img{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+    cursor: pointer;
+}
+
+.achievement-image-container{
+    text-align: center;
+}
+
+.more-achievements-btn{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 30px;
+}
+
+.more-achievements-btn:hover{
+    background-color: rgb(241, 241, 247);
+    color: black;
+}
+
+@media (max-width: 450px){
+    .achievement-image-container>img{
+        width: 152px;
+        height: 228px;
+    }
+
+}
+
+
+
+/*Footer*/
+.footer-container{
+    background-color: rgba(1, 5, 15, 0.973);
+    color: white;
+}
+
+
+i{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.copyrights{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.quick-links-link{
+    color: white;
+    padding-left: 0;
+}
+.quick-links-link:hover{
+    text-decoration: none;
+}
+
+.fas,.fab{
+    cursor: pointer;
+}
+
+.unordered-list{
+    padding-left: 0%;
+}
+
+.footer-reachus{
+    font-size: 15px;
+}
+
+.reach-us{
+    line-height: 30px;
+}
+
+.footer-logo{
+    text-align: center;
+}

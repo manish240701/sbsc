@@ -1,0 +1,13 @@
+.container{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(247, 240, 240);
+}
